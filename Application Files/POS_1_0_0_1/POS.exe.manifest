@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="POS.exe" version="1.0.0.1" publicKeyToken="90b17712fd61658f" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="POS" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="POS.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.21006.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="POS.exe" size="230400">
+      <assemblyIdentity name="POS" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Ndo8m+7BhGiWDuEryQi3Ojr7gdc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="App_Data\POS.mdf" size="2359296" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>59oPbLkAbSRn+Dd8+TS8nquvzzs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_Data\POS_log.ldf" size="516096" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>k/Y84G8vXotD6H+WpGAOhIZOPc8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="POS.exe.config" size="429">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>O8CioX65pI8pRjOzuftzzDiINmU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Haisum-PC\Haisum" issuerKeyHash="c5a7d3735862515737e209f1b63729b539ebe0c2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>RuaF+4PIc5+1/T5XPxrZog/sjlk=</DigestValue></Reference></SignedInfo><SignatureValue>Og5JUQUTT3DcRlaEw2qI9Zzw23jUp7RxOJ/1cJoT244p8R4rhFhtSApDiX91aWVbj9jfJA8DVB34EfpWDB9ItmLG6zXojAlRuO6u+4CkWZVST3i1V4GCYLDeSjmTKO4oUOxqVslwIMvKe2IEsyJqxacsm3eVzG2UMDM0eO+AyuI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pPVh0ATOw2soKEAA9vD1fprZHZ8EJkawPHZiuvEHj3110ZXYZMEM2tKjVGG+3ALvs9di9neTLEHbyiIHznKFZote+2t0vJDLjg12FtMW39TuUBKTtyrixRWgKlc2UBBueEjEU4dLEmtPrnYytJn8ZqcR6Q0s4M2OSfSg/Xjx5v8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="598eec0fa2d91a3f573efdb59f73c883fb85e646" Description="" Url=""><as:assemblyIdentity name="POS.exe" version="1.0.0.1" publicKeyToken="90b17712fd61658f" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Haisum-PC\Haisum</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>UGnLMBVq9GC2VDBbgO2xYU+zJhU=</DigestValue></Reference></SignedInfo><SignatureValue>n1DjNJzE+s5hZmBR+nt8wSPTpJakjp9cVma/IJaiBDIG4Y5qBl62QtTEzal3W2U1qf0BrRjhceqP6da2xA1sDJu9ssm5b1StRDIMPWnIwu9mMWuw9GHMOVZbtsrbav57/b0YqN0laWhJEzH6rw+ytjxeVGOGV5NPubBpsipCFM4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pPVh0ATOw2soKEAA9vD1fprZHZ8EJkawPHZiuvEHj3110ZXYZMEM2tKjVGG+3ALvs9di9neTLEHbyiIHznKFZote+2t0vJDLjg12FtMW39TuUBKTtyrixRWgKlc2UBBueEjEU4dLEmtPrnYytJn8ZqcR6Q0s4M2OSfSg/Xjx5v8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQcmEtJ/C40ZxE7SnUK+32XDANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAASABhAGkAcwB1AG0ALQBQAEMAXABIAGEAaQBzAHUAbTAeFw0xMDA2MjIwOTIzNDVaFw0xMTA2MjIxNTIzNDVaMCsxKTAnBgNVBAMeIABIAGEAaQBzAHUAbQAtAFAAQwBcAEgAYQBpAHMAdQBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk9WHQBM7DaygoQAD28PV+mtkdnwQmRrA8dmK68QePfXXRldhkwQza0qNUYb7cAu+z12L2d5MsQdvKIgfOcoVmi177a3S8kMuODXYW0xbf1O5QEpO3KuLFFaAqVzZQEG54SMRTh0sSa0+udjK0mfxmpxHpDSzgzY5J9KD9ePHm/wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAH+e1YLXwvM6XHMgrbtNnJP2ms3cQv0Gjq14w1bG2Ftr67Rlcd6lqovJIH1jcsLbki9/uR0hu3cZpkScPhc7/P70TAZJHh+MTc0g1tWIPr7hzRiFkOhtVBEVXHT7e70gOokT7tC8733LPeo4sM7TtkX5tWjxorHdw9uBXmjy/qG6</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

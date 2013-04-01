@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="POS.Properties.Settings.POSConnectionString" connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\App_Data\POS.mdf;Integrated Security=True;User Instance=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+</configuration>

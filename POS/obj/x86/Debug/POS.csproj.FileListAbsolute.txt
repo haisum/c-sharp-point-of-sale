@@ -1,0 +1,45 @@
+c:\users\sarmad\documents\visual studio 2010\Projects\POS\POS\bin\Debug\POS.exe
+c:\users\sarmad\documents\visual studio 2010\Projects\POS\POS\bin\Debug\POS.pdb
+c:\users\sarmad\documents\visual studio 2010\Projects\POS\POS\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\sarmad\documents\visual studio 2010\Projects\POS\POS\obj\x86\Debug\POS.Properties.Resources.resources
+c:\users\sarmad\documents\visual studio 2010\Projects\POS\POS\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\sarmad\documents\visual studio 2010\Projects\POS\POS\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\sarmad\documents\visual studio 2010\Projects\POS\POS\obj\x86\Debug\POS.exe
+c:\users\sarmad\documents\visual studio 2010\Projects\POS\POS\obj\x86\Debug\POS.pdb
+C:\Users\Sarmad\documents\visual studio 2010\Projects\POS\POS\obj\x86\Debug\POS.login.resources
+C:\Users\Sarmad\documents\visual studio 2010\Projects\POS\POS\obj\x86\Debug\POS.homescreen.resources
+C:\Users\Sarmad\documents\visual studio 2010\Projects\POS\POS\obj\x86\Debug\POS.inventory.resources
+C:\Users\Sarmad\documents\visual studio 2010\Projects\POS\POS\obj\x86\Debug\POS.sales.resources
+C:\Users\Sarmad\Documents\Visual Studio 2010\Projects\POS\POS\obj\x86\Debug\POS.report.resources
+C:\Users\Sarmad\Documents\Visual Studio 2010\Projects\POS\POS\obj\x86\Debug\POS.control.resources
+C:\Users\Sarmad\Documents\Visual Studio 2010\Projects\POS\POS\obj\x86\Debug\POS.about.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.exe
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.pdb
+C:\Users\Haisum\Desktop\project\POS\POS\bin\Debug\POS.exe
+C:\Users\Haisum\Desktop\project\POS\POS\bin\Debug\POS.pdb
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.about.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.inventory.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.login.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.homescreen.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.Properties.Resources.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.report.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.sales.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Haisum\Desktop\project\POS\POS\bin\Debug\POS.exe.config
+C:\Users\Haisum\Desktop\project\POS\POS\bin\Debug\App_Data\POS.mdf
+C:\Users\Haisum\Desktop\project\POS\POS\bin\Debug\App_Data\POS_log.ldf
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.ControlPanel.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.Forms.Users.ChangePassword.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.Forms.Users.AddUser.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.Forms.Users.EditUsers.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.Forms.Items.AddCategory.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.Forms.Items.EditCategories.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.Forms.Items.AddItem.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.Forms.Items.EditItems.resources
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.Forms.Delivery.resources
+C:\Users\Haisum\Desktop\project\POS\POS\bin\Debug\POS.exe.manifest
+C:\Users\Haisum\Desktop\project\POS\POS\bin\Debug\POS.application
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.exe.manifest
+C:\Users\Haisum\Desktop\project\POS\POS\obj\x86\Debug\POS.application
